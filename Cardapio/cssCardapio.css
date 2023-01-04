@@ -1,0 +1,125 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-color: #EEE;
+}
+
+header {
+  height: 50px;
+  background-color: #C5A572;
+}
+ 
+.container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+}
+ 
+.name {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: -9px;
+}
+
+/* FIM DO TOPO */
+
+.title-sabores {
+    max-width: 1300px;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sub-title{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Hepta Slab', serif;
+}
+
+/* FIM DOS SABORES */
+
+.cardapio-size{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pizza-item{
+    margin: 15px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Hepta Slab", serif;
+}
+
+.pizza-item--img{
+    background-color: transparent;
+}
+
+.pizza-item--img img{
+    height: auto;
+    width: 100%;
+}
+
+.pizza-item a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.button {
+    border: none;
+    background-color: rgb(46, 245, 6);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: -50px;
+    transition: all ease .2s;
+    cursor: pointer;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.pizza-item--value {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.pizza-item--name{
+    margin-bottom: 10px;
+    font-family: "Hepta Slavb", serif;
+    font-style: italic;
+    font-size: 30px;
+    
+}
+
+/* COMEÇANDO A ABERTURA DE PEDIDOS */ 
+
+.new-window {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    overflow-y: auto;
+    display:none;
+    transition: all ease .5s;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-window-area {
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    margin: 20px, 0px;
+}

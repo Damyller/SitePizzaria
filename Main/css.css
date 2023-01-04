@@ -49,7 +49,7 @@ img{
 
 .Banner {
     height: calc(100vh - 300px);
-    background-image: url("./imagens/Banner.jpg");
+    background-image: url("../imagens/Banner.jpg");
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -62,7 +62,7 @@ img{
     color: white;
     justify-content: center;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 800px;
     font-size: 50px;
     font-style: bold;
@@ -81,6 +81,39 @@ img{
     font-size: 25px;
     font-style: bold;
     font-style: italic;
+}
+
+.Pesquisa{
+    margin-left: 1250px;
+    margin-top: 50px;
+}
+
+.Pesquisa input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.Botao{
+    margin-left: 1570px;
+    margin-top: -40px;
+}
+
+.button-lupa {
+    height: 35px;
+    background-color: transparent;
+    margin-top: -3px;
+    margin-left: -60px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.Lupe{
+    height: 20px;
 }
 
 /* Fim do Banner */
